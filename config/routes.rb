@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   # root "articles#index"
   root to: 'pages#home'
   get '/ask', to: 'pages#ask'
+  get '/answer', to: 'pages#answer'
 end

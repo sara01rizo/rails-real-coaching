@@ -1,0 +1,9 @@
+<div class="container">
+  <h1>Hi from Forms</h1>
+  <br />
+  <%= form_with scope: "question", url: "/ask" do |form| %>
+    <%= form.text_field :title %>
+    <%= form.submit "Create" %>
+  <% end %>
+
+</div>
