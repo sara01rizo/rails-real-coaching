@@ -1,0 +1,22 @@
+.card {
+  font-size: 1.2em;
+  width:40%;
+  margin:50px;
+  font-family:Open Sans;
+  font-style:italic;
+  color: #555555;
+  padding:1.2em 30px 1.2em 75px;
+  border-left:8px solid #9b9b9b ;
+  line-height:1.6;
+  background:#EDEDED;
+}
+h1, h2 {
+  margin:50px;
+}
+
+a {
+  margin:50px;
+}
+form {
+  margin:50px;
+}
